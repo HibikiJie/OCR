@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/cq/public/hibiki/CCPD2019/data/train  # 16551 images
+val: /home/cq/public/hibiki/CCPD2019/data/train  # 4952 images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['chepai']
